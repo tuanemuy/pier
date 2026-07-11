@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# direnv
+.direnv/
+
+# Nix
+result
+result-*
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
