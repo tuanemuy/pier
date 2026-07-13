@@ -1,0 +1,16 @@
+excluded:
+  - .direnv
+  - .build
+  - PierCore/.build
+  - PierCore/.swiftpm
+  - Pier.xcodeproj
+
+identifier_name:
+  excluded:
+    - id
+    - x
+    - y
+
+cyclomatic_complexity:
+  warning: 25
+  error: 30

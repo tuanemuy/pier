@@ -1,0 +1,8 @@
+%begin 1710000000 1 0
+$1 main
+%end 1710000000 1 0
+%session-changed $1 main
+%window-add @2
+%window-renamed @2 editor
+%layout-change @2 b25f,120x36,0,0{60x36,0,0,3,59x36,61,0,4}
+%output %3 ready\040日本語\015\012
